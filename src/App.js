@@ -1,7 +1,7 @@
 import React from 'react';
 
 // まずクラスを作る
-const TestCode = () => {
+const App = () => {
 
     // クラス内部に変数とか定数を持てる。Javaと同じ
     const TEST = 'TEST';
@@ -11,4 +11,4 @@ const TestCode = () => {
         <div>{TEST}</div>
     );
 };
-export default TestCode;
+export default App;
